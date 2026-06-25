@@ -1,0 +1,4 @@
+
+**TGpStringDictionaryEnumerator**
+
+Класс-перечислитель для итерации по элементам `TGpStringDictionary`. Реализует паттерн перечисления с методами `GetCurrent`, `MoveNext` и свойством `Current`, возвращающим объекты типа `TGpStringDictionaryKV` (содержащие индекс, ключ и значение). Обеспечивает перебор элементов словаря в порядке их добавления (insertion order).

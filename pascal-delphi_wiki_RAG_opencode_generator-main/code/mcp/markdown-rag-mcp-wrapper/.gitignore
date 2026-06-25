@@ -1,8 +1,0 @@
-﻿.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.log
-debug.log
-subprocess_out.txt
-subprocess_err.txt

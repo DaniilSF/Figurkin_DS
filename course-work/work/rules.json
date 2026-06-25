@@ -1,0 +1,85 @@
+[
+  {
+    "id": "001",
+    "pattern_type": "imports",
+    "comment": "Если файл использует OpenAI SDK напрямую, добавляем подсказку по импортам для GigaChat/HumanMessage рядом с импортом OpenAI.",
+    "find": "from openai import OpenAI",
+    "insert": {
+      "where": "after",
+      "text": "from langchain_community.chat_models.gigachat import GigaChat\nfrom langchain.schema import HumanMessage"
+    }
+  },
+  {
+    "id": "006",
+    "pattern_type": "imports",
+    "comment": "Если файл использует LangChain OpenAI (старый импорт), добавляем подсказку по импортам для GigaChat/HumanMessage рядом с импортом OpenAI.",
+    "find": "from langchain.llms import OpenAI",
+    "insert": {
+      "where": "after",
+      "text": "from langchain_community.chat_models.gigachat import GigaChat\nfrom langchain.schema import HumanMessage"
+    }
+  },
+
+  {
+    "id": "002",
+    "pattern_type": "ui",
+    "comment": "Ввод ключа OpenAI в sidebar (вариант с type=\"password\"). Добавляем подсказку по вводу ключа GigaChat.",
+    "find": "$KEY = st.sidebar.text_input(\"OpenAI API Key\", type=\"password\")",
+    "insert": {
+      "where": "after",
+      "text": "gigaChatKey = st.sidebar.text_input('GigaChat: API Key')"
+    }
+  },
+  {
+    "id": "007",
+    "pattern_type": "ui",
+    "comment": "Ввод ключа OpenAI в sidebar (простой вариант без type). Покрывает Quickstart: st.sidebar.text_input('OpenAI API Key').",
+    "find": "$KEY = st.sidebar.text_input('OpenAI API Key')",
+    "insert": {
+      "where": "after",
+      "text": "gigaChatKey = st.sidebar.text_input('GigaChat: API Key')"
+    }
+  },
+
+  {
+    "id": "003",
+    "pattern_type": "call",
+    "comment": "Создание LangChain OpenAI и вывод результата через st.info. Покрывает Quickstart: llm = OpenAI(...); st.info(llm(input_text)).",
+    "find": "$LLM = OpenAI(temperature=0.7, openai_api_key=$KEY)\nst.info($LLM($INPUT))",
+    "insert": {
+      "where": "after",
+      "text": "llm1 = GigaChat(credentials=gigaChatKey, scope=\"GIGACHAT_API_PERS\", model=\"GigaChat\", verify_ssl_certs=False, streaming=False)\nuser_input = f\"User: {$INPUT}\"\nmessage = [HumanMessage(content=user_input)]\nst.info(f\"GigaChat: {(llm1(message)).content}\")"
+    }
+  },
+
+  {
+    "id": "004",
+    "pattern_type": "response",
+    "comment": "OpenAI chat.completions.create + извлечение response.choices[0].message.content (вариант чат-бота).",
+    "find": "$RESP = $CLIENT.chat.completions.create(model=\"gpt-3.5-turbo\", messages=st.session_state.messages)\n$MSG = $RESP.choices[0].message.content",
+    "insert": {
+      "where": "after",
+      "text": "message = [HumanMessage(content=prompt)]\nresponse = (client(message)).content"
+    }
+  },
+  {
+    "id": "005",
+    "pattern_type": "auth",
+    "comment": "Проверка ключа вида: if not <key>: (универсальная).",
+    "find": "if not $KEY:",
+    "insert": {
+      "where": "after",
+      "text": "if not gigaChatKey:"
+    }
+  },
+  {
+    "id": "008",
+    "pattern_type": "auth",
+    "comment": "Проверки OpenAI-ключа через startswith('sk-') — типичный quickstart-паттерн. Подсказка заменить на проверку наличия gigaChatKey.",
+    "find": "$KEY.startswith('sk-')",
+    "insert": {
+      "where": "after",
+      "text": "gigaChatKey"
+    }
+  }
+]

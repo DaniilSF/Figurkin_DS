@@ -1,0 +1,103 @@
+2026-05-23 15:34:27,040 - markdown_rag_mcp.core.rag_engine - INFO - RAG engine created with configuration
+┌─────────────── 🚀 Indexing Configuration ────────────────┐
+│ 📁 D:\Works\учёба\вкр\finalversion\data\wiki_out\current │
+│ 🔄 Recursive: No                                         │
+│ ⚡ Force: Yes                                            │
+│ 👀 Watch: No                                             │
+└──────────────────────────────────────────────────────────┘
+2026-05-23 15:34:27,051 - markdown_rag_mcp.core.rag_engine - INFO - Initializing RAG engine components...
+2026-05-23 15:34:27,051 - markdown_rag_mcp.embeddings.embedder - INFO - Initializing HuggingFace embedder: sentence-transformers/all-MiniLM-L6-v2 on cpu
+2026-05-23 15:35:06,942 - markdown_rag_mcp.embeddings.embedder - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-23 15:35:06,943 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-05-23 15:35:10,967 - markdown_rag_mcp.embeddings.embedder - INFO - Model loaded successfully on device: cpu
+2026-05-23 15:35:10,968 - markdown_rag_mcp.core.rag_engine - INFO - LangChain embedding adapter initialized
+2026-05-23 15:35:11,121 - markdown_rag_mcp.storage.milvus_store - INFO - Creating markdown_rag database...
+2026-05-23 15:35:11,128 - markdown_rag_mcp.storage.milvus_store - INFO - Database 'markdown_rag' created successfully
+2026-05-23 15:35:11,336 - markdown_rag_mcp.storage.milvus_store - INFO - Milvus vector store initialized successfully
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - LangChain vector store initialized
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - Document parser initialized
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - Query processor initialized
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - Document indexer initialized with frontmatter enhancement
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - Incremental indexer initialized with change detection
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - Monitoring coordinator initialized with incremental updates
+2026-05-23 15:35:11,336 - markdown_rag_mcp.core.rag_engine - INFO - RAG engine initialization complete
+⠸ Initializing RAG engine...
+✅ Engine initialized - Starting indexing process
+2026-05-23 15:35:11,339 - markdown_rag_mcp.core.rag_engine - INFO - Indexing directory: D:\Works\учёба\вкр\finalversion\data\wiki_out\current
+2026-05-23 15:35:11,340 - markdown_rag_mcp.core.rag_engine - INFO - Found 20 files to process
+2026-05-23 15:35:11,340 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpLockFreeQueue.md
+D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\langchain_milvus\vectorstores\milvus.py:2345: UserWarning: No ids provided and auto_id is False. Setting auto_id to True automatically.
+  warnings.warn(
+2026-05-23 15:35:13,315 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 5 document sections using Milvus
+2026-05-23 15:35:13,315 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpLockFreeQueue.md: 5 sections in 1.98s
+2026-05-23 15:35:13,315 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpLockFreeQueue.TGpLockFreeQueue.md
+2026-05-23 15:35:14,205 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 18 document sections using Milvus
+2026-05-23 15:35:14,205 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpLockFreeQueue.TGpLockFreeQueue.md: 18 sections in 0.89s
+2026-05-23 15:35:14,205 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpProperty.md
+2026-05-23 15:35:14,591 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 8 document sections using Milvus
+2026-05-23 15:35:14,591 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpProperty.md: 8 sections in 0.39s
+2026-05-23 15:35:14,591 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.md
+2026-05-23 15:35:15,495 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 19 document sections using Milvus
+2026-05-23 15:35:15,496 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.md: 19 sections in 0.90s
+2026-05-23 15:35:15,496 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringDictionary.md
+2026-05-23 15:35:16,628 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 23 document sections using Milvus
+2026-05-23 15:35:16,628 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringDictionary.md: 23 sections in 1.13s
+2026-05-23 15:35:16,629 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringDictionaryEnumerator.md
+2026-05-23 15:35:17,103 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 9 document sections using Milvus
+2026-05-23 15:35:17,103 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringDictionaryEnumerator.md: 9 sections in 0.47s
+2026-05-23 15:35:17,103 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringDictionaryKV.md
+2026-05-23 15:35:17,429 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 7 document sections using Milvus
+2026-05-23 15:35:17,430 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringDictionaryKV.md: 7 sections in 0.33s
+2026-05-23 15:35:17,430 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringHash.md
+2026-05-23 15:35:18,563 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 23 document sections using Milvus
+2026-05-23 15:35:18,563 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringHash.md: 23 sections in 1.13s
+2026-05-23 15:35:18,563 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringHashEnumerator.md
+2026-05-23 15:35:19,034 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 9 document sections using Milvus
+2026-05-23 15:35:19,034 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringHashEnumerator.md: 9 sections in 0.47s
+2026-05-23 15:35:19,035 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringHashKV.md
+2026-05-23 15:35:19,329 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 6 document sections using Milvus
+2026-05-23 15:35:19,329 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringHashKV.md: 6 sections in 0.29s
+2026-05-23 15:35:19,329 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringInterfaceHash.md
+2026-05-23 15:35:20,327 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 19 document sections using Milvus
+2026-05-23 15:35:20,327 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringInterfaceHash.md: 19 sections in 1.00s
+2026-05-23 15:35:20,327 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringInterfaceHashEnumerator.md
+2026-05-23 15:35:20,791 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 9 document sections using Milvus
+2026-05-23 15:35:20,792 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringInterfaceHashEnumerator.md: 9 sections in 0.46s
+2026-05-23 15:35:20,792 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringInterfaceHashKV.md
+2026-05-23 15:35:21,082 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 6 document sections using Milvus
+2026-05-23 15:35:21,083 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringInterfaceHashKV.md: 6 sections in 0.29s
+2026-05-23 15:35:21,083 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringObjectHash.md
+2026-05-23 15:35:22,031 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 19 document sections using Milvus
+2026-05-23 15:35:22,031 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringObjectHash.md: 19 sections in 0.95s
+2026-05-23 15:35:22,031 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringObjectHashEnumerator.md
+2026-05-23 15:35:22,474 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 9 document sections using Milvus
+2026-05-23 15:35:22,474 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringObjectHashEnumerator.md: 9 sections in 0.44s
+2026-05-23 15:35:22,474 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringObjectHashKV.md
+2026-05-23 15:35:22,754 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 6 document sections using Milvus
+2026-05-23 15:35:22,755 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringObjectHashKV.md: 6 sections in 0.28s
+2026-05-23 15:35:22,755 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringTable.md
+2026-05-23 15:35:23,634 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 17 document sections using Milvus
+2026-05-23 15:35:23,634 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringTable.md: 17 sections in 0.88s
+2026-05-23 15:35:23,634 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringTableEnumerator.md
+2026-05-23 15:35:24,110 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 9 document sections using Milvus
+2026-05-23 15:35:24,111 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringTableEnumerator.md: 9 sections in 0.48s
+2026-05-23 15:35:24,111 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringTableKV.md
+2026-05-23 15:35:24,390 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 6 document sections using Milvus
+2026-05-23 15:35:24,390 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\GpStringHash.TGpStringTableKV.md: 6 sections in 0.28s
+2026-05-23 15:35:24,390 - markdown_rag_mcp.indexing.indexer - INFO - Starting indexing for document: D:\Works\учёба\вкр\finalversion\data\wiki_out\current\Home.md
+2026-05-23 15:35:24,504 - markdown_rag_mcp.storage.milvus_store - INFO - Stored 2 document sections using Milvus
+2026-05-23 15:35:24,504 - markdown_rag_mcp.indexing.indexer - INFO - Successfully indexed document D:\Works\учёба\вкр\finalversion\data\wiki_out\current\Home.md: 2 sections in 0.11s
+2026-05-23 15:35:24,504 - markdown_rag_mcp.core.rag_engine - INFO - Directory indexing complete: 20 success, 0 failed
+⠼ Indexing documents... 0:00:13
+                    📊 Indexing Results                     
+┌──────────────────────┬─────────────────┬─────────────────┐
+│ Metric               │ Value           │ Status          │
+├──────────────────────┼─────────────────┼─────────────────┤
+│ Status               │ Success         │ ✅              │
+│ Files Indexed        │ 20              │ 📝              │
+│ Files Failed         │ 0               │ ✅              │
+│ Processing Time      │ 13.17s          │ ⏱️               │
+└──────────────────────┴─────────────────┴─────────────────┘
+2026-05-23 15:35:24,508 - markdown_rag_mcp.core.rag_engine - INFO - Shutting down RAG engine...
+2026-05-23 15:35:24,508 - markdown_rag_mcp.storage.milvus_store - INFO - Milvus vector store cleaned up successfully
+2026-05-23 15:35:24,508 - markdown_rag_mcp.core.rag_engine - INFO - RAG engine shutdown complete

@@ -1,0 +1,8 @@
+streamlit
+openai
+ddgs
+anthropic
+trubrics
+streamlit-feedback
+langchain-community
+gigachain-community

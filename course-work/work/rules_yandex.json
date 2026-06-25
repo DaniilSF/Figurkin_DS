@@ -1,0 +1,42 @@
+[
+  {
+    "id": "001",
+    "pattern_type": "imports",
+    "comment": "Подсказка: заменить импорт ChatOpenAI на импорт YandexGPT (langchain_community.llms).",
+    "find": "from langchain.chat_models import ChatOpenAI",
+    "insert": {
+      "where": "after",
+      "text": "from langchain_community.llms import YandexGPT"
+    }
+  },
+  {
+    "id": "002",
+    "pattern_type": "ui",
+    "comment": "Подсказка: вместо ввода openai_api_key добавить ввод yandexGPTid и yandexGPTkey в sidebar.",
+    "find": "$KEY = st.text_input(\"OpenAI API Key\", key=\"langchain_search_api_key_openai\", type=\"password\")",
+    "insert": {
+      "where": "after",
+      "text": "yandexGPTid = st.sidebar.text_input('YandexGPT: идентификатор на YandexCloud')\nyandexGPTkey = st.sidebar.text_input('YandexGPT: API Key')"
+    }
+  },
+  {
+    "id": "003",
+    "pattern_type": "auth",
+    "comment": "Подсказка: проверка наличия параметров доступа для YandexGPT требует и key, и id.",
+    "find": "if not $KEY:",
+    "insert": {
+      "where": "after",
+      "text": "if (not yandexGPTkey or not yandexGPTid):"
+    }
+  },
+  {
+    "id": "004",
+    "pattern_type": "llm_init",
+    "comment": "Подсказка: заменить инициализацию ChatOpenAI на YandexGPT с model_uri.",
+    "find": "llm = ChatOpenAI(model_name=\"gpt-3.5-turbo\", openai_api_key=openai_api_key, streaming=True)",
+    "insert": {
+      "where": "after",
+      "text": "llm = YandexGPT(api_key = yandexGPTkey, model_uri = f\"gpt://{yandexGPTid}/yandexgpt/latest\")"
+    }
+  }
+]

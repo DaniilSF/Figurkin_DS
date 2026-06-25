@@ -1,0 +1,63 @@
+CONFIG_FILE: D:/Works/учёба/вкр/finalversion/.config/ai-descr.local.conf
+CONFIG_LOADED: true
+PROJECT_ROOT: D:/Works/учёба/вкр/finalversion/data/input_project/src
+PASDOC_PROG: D:/Works/учёба/вкр/finalversion/tools/pasdoc/bin/pasdoc.exe
+XMLSTARLET_BIN: D:/Works/учёба/вкр/finalversion/tools/xmlstarlet/xmlstarlet-1.6.1/xml.exe
+JQ_BIN: D:/Works/учёба/вкр/finalversion/tools/bin/jq.exe
+WORK_ROOT: /tmp/pasdoc_wiki_2026-05-23_15-23-52_wRdkIB
+DOC_DIR: /tmp/pasdoc_wiki_2026-05-23_15-23-52_wRdkIB/docs_tmp
+STAGE_DIR: /tmp/pasdoc_wiki_2026-05-23_15-23-52_wRdkIB/stage
+WIKI_DIR: D:/Works/учёба/вкр/finalversion/data/wiki_out/current
+AI_PROVIDER: openrouter
+AI_URL: https://openrouter.ai/api/v1/chat/completions
+AI_MODEL: poolside/laguna-m.1:free
+AI_ENRICH_UNITS: true
+AI_ENRICH_CLASSES: true
+AI_ENRICH_METHODS: false
+CACHE_DIR: D:/Works/учёба/вкр/finalversion/data/cache/ai-descriptions
+
+[1] Обработка: D:/Works/учёба/вкр/finalversion/data/input_project/src/GpLockFreeQueue.pas
+AI generate: GpLockFreeQueue/class/TGpLockFreeQueue
+OK: GpLockFreeQueue
+[2] Обработка: D:/Works/учёба/вкр/finalversion/data/input_project/src/GpProperty.pas
+AI generate: GpProperty/unit/GpProperty
+OK: GpProperty
+[3] Обработка: D:/Works/учёба/вкр/finalversion/data/input_project/src/GpStringHash.pas
+AI generate: GpStringHash/class/TGpStringHashKV
+AI generate: GpStringHash/class/TGpStringHashEnumerator
+AI generate: GpStringHash/class/TGpStringHash
+AI generate: GpStringHash/class/TGpStringObjectHashKV
+AI generate: GpStringHash/class/TGpStringObjectHashEnumerator
+AI generate: GpStringHash/class/TGpStringObjectHash
+AI generate: GpStringHash/class/TGpStringInterfaceHashKV
+AI generate: GpStringHash/class/TGpStringInterfaceHashEnumerator
+AI generate: GpStringHash/class/TGpStringInterfaceHash
+AI generate: GpStringHash/class/TGpStringTableKV
+AI generate: GpStringHash/class/TGpStringTableEnumerator
+AI generate: GpStringHash/class/TGpStringTable
+AI generate: GpStringHash/class/TGpStringDictionaryKV
+AI generate: GpStringHash/class/TGpStringDictionaryEnumerator
+AI generate: GpStringHash/class/TGpStringDictionary
+OK: GpStringHash
+Проверка описаний...
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpLockFreeQueue.TGpLockFreeQueue.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringDictionary.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringDictionaryEnumerator.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringDictionaryKV.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringHash.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringHashEnumerator.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringHashKV.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringInterfaceHash.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringInterfaceHashEnumerator.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringInterfaceHashKV.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringObjectHash.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringObjectHashEnumerator.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringObjectHashKV.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringTable.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringTableEnumerator.md содержит пропущенные описания
+  ПРЕДУПРЕЖДЕНИЕ: D:/Works/учёба/вкр/finalversion/data/wiki_out/current/GpStringHash.TGpStringTableKV.md содержит пропущенные описания
+Проверка структуры wiki...
+  Unit-файлов: 3
+  Class-файлов: 16
+
+Готово. Wiki создана в: D:/Works/учёба/вкр/finalversion/data/wiki_out/current

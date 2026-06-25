@@ -1,0 +1,52 @@
+2026-05-23 15:35:27,668 - markdown_rag_mcp.core.rag_engine - INFO - RAG engine created with configuration
+┌─ 🔍 Search Configuration ─┐
+│ 🔍 Query: FindBucket      │
+│ 📊 Limit: 1 results       │
+│ 🎯 Threshold: 0.1         │
+│ 📝 Metadata: Yes          │
+└───────────────────────────┘
+2026-05-23 15:35:27,671 - markdown_rag_mcp.core.rag_engine - INFO - Initializing RAG engine components...
+2026-05-23 15:35:27,671 - markdown_rag_mcp.embeddings.embedder - INFO - Initializing HuggingFace embedder: sentence-transformers/all-MiniLM-L6-v2 on cpu
+2026-05-23 15:35:30,695 - markdown_rag_mcp.embeddings.embedder - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-05-23 15:35:30,696 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-05-23 15:35:33,865 - markdown_rag_mcp.embeddings.embedder - INFO - Model loaded successfully on device: cpu
+2026-05-23 15:35:33,865 - markdown_rag_mcp.core.rag_engine - INFO - LangChain embedding adapter initialized
+2026-05-23 15:35:33,924 - markdown_rag_mcp.storage.milvus_store - INFO - Database 'markdown_rag' already exists
+2026-05-23 15:35:34,190 - markdown_rag_mcp.storage.milvus_store - INFO - Milvus vector store initialized successfully
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - LangChain vector store initialized
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - Document parser initialized
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - Query processor initialized
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - Document indexer initialized with frontmatter enhancement
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - Incremental indexer initialized with change detection
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - Monitoring coordinator initialized with incremental updates
+2026-05-23 15:35:34,190 - markdown_rag_mcp.core.rag_engine - INFO - RAG engine initialization complete
+⠙ Initializing search engine...
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 49.96it/s]
+⠴ Searching documents... 0:00:00
+{
+  "results": [
+    {
+      "confidence_score": 0.4754,
+      "file_path": "doc_9d6777b8-eb8a-40de-9ff1-a988cacb3def",
+      "section_heading": "Method: TGpStringDictionary.FindBucket",
+      "section_text": "Method: TGpStringDictionary.FindBucket\n\n**ID:** `GpStringHash.TGpStringDictionary.FindBucket`\n**\u041e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435:** `function FindBucket(const key: string): cardinal;`\n**\u0412\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u044c:** protected\n\n\u041d\u0435\u0442 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "metadata": {
+        "document_id": "9d6777b8-eb8a-40de-9ff1-a988cacb3def",
+        "section_id": "f82a01f4-0502-4631-b1a9-a21cba3fe8cf",
+        "section_heading": "Method: TGpStringDictionary.FindBucket",
+        "created_at": "2026-05-23T12:35:15.496021+00:00",
+        "pk": 466495478649064899,
+        "token_count": 50,
+        "heading_level": 3,
+        "file_path": "doc_9d6777b8-eb8a-40de-9ff1-a988cacb3def",
+        "chunk_index": 4,
+        "section_type": "heading",
+        "start_position": 1033,
+        "end_position": 1239
+      }
+    }
+  ]
+}
+2026-05-23 15:35:34,645 - markdown_rag_mcp.core.rag_engine - INFO - Shutting down RAG engine...
+2026-05-23 15:35:34,645 - markdown_rag_mcp.storage.milvus_store - INFO - Milvus vector store cleaned up successfully
+2026-05-23 15:35:34,645 - markdown_rag_mcp.core.rag_engine - INFO - RAG engine shutdown complete

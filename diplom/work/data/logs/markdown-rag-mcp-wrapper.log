@@ -1,0 +1,565 @@
+2026-05-23T15:56:08 warmup start
+2026-05-23T15:56:08 capture start: warmup
+2026-05-23T15:56:08 _get_engine enter
+2026-05-23T15:56:08 _get_engine create lock
+2026-05-23T15:56:08 _get_engine before lock
+2026-05-23T15:56:08 _get_engine after lock
+2026-05-23T15:56:08 _get_engine validate backend paths start
+2026-05-23T15:56:08 _get_engine validate backend paths success
+2026-05-23T15:56:08 _get_engine ensure backend import path start
+2026-05-23T15:56:08 _get_engine ensure backend import path success
+2026-05-23T15:56:08 _get_engine import markdown_rag_mcp.config start
+2026-05-23T15:57:51 _get_engine import markdown_rag_mcp.config success
+2026-05-23T15:57:51 _get_engine import markdown_rag_mcp.core start
+2026-05-23T15:57:51 _get_engine import markdown_rag_mcp.core success
+2026-05-23T15:57:51 RAGEngine initialization start
+2026-05-23T15:57:51 get_config start
+2026-05-23T15:57:51 get_config success
+2026-05-23T15:57:51 RAGEngine constructor start
+[05/23/26 15:57:51] INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-05-23T15:57:51 RAGEngine constructor success
+2026-05-23T15:57:51 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+[05/23/26 15:57:57] INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+[05/23/26 15:58:01] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+                    INFO     Database 'markdown_rag' already milvus_store.py:88
+                             exists                                            
+                    INFO     Milvus vector store initialized milvus_store.py:65
+                             successfully                                      
+                    INFO     LangChain vector store            rag_engine.py:81
+                             initialized                                       
+                    INFO     Document parser initialized       rag_engine.py:85
+                    INFO     Query processor initialized       rag_engine.py:89
+                    INFO     Document indexer initialized with rag_engine.py:95
+                             frontmatter enhancement                           
+                    INFO     Incremental indexer initialized  rag_engine.py:100
+                             with change detection                             
+                    INFO     Monitoring coordinator           rag_engine.py:104
+                             initialized with incremental                      
+                             updates                                           
+                    INFO     RAG engine initialization        rag_engine.py:107
+                             complete                                          
+2026-05-23T15:58:01 engine.initialize success
+2026-05-23T15:58:01 RAGEngine initialization success
+2026-05-23T15:58:01 capture end: warmup
+2026-05-23T15:58:01 warmup success
+2026-05-23T15:58:01 warmup start
+2026-05-23T15:58:01 capture start: warmup
+2026-05-23T15:58:01 _get_engine enter
+2026-05-23T15:58:01 _get_engine before lock
+2026-05-23T15:58:01 _get_engine after lock
+2026-05-23T15:58:01 _get_engine cached engine hit
+2026-05-23T15:58:01 capture end: warmup
+2026-05-23T15:58:01 warmup success
+2026-05-23T16:04:16 warmup start
+2026-05-23T16:04:16 capture start: warmup
+2026-05-23T16:04:16 _get_engine enter
+2026-05-23T16:04:16 _get_engine create lock
+2026-05-23T16:04:16 _get_engine before lock
+2026-05-23T16:04:16 _get_engine after lock
+2026-05-23T16:04:16 _get_engine validate backend paths start
+2026-05-23T16:04:16 _get_engine validate backend paths success
+2026-05-23T16:04:16 _get_engine ensure backend import path start
+2026-05-23T16:04:16 _get_engine ensure backend import path success
+2026-05-23T16:04:16 _get_engine import markdown_rag_mcp.config start
+2026-05-23T16:06:00 _get_engine import markdown_rag_mcp.config success
+2026-05-23T16:06:00 _get_engine import markdown_rag_mcp.core start
+2026-05-23T16:06:00 _get_engine import markdown_rag_mcp.core success
+2026-05-23T16:06:00 RAGEngine initialization start
+2026-05-23T16:06:00 get_config start
+2026-05-23T16:06:00 get_config success
+2026-05-23T16:06:00 RAGEngine constructor start
+[05/23/26 16:06:00] INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-05-23T16:06:00 RAGEngine constructor success
+2026-05-23T16:06:00 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+[05/23/26 16:06:06] INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+[05/23/26 16:06:09] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+                    INFO     Database 'markdown_rag' already milvus_store.py:88
+                             exists                                            
+[05/23/26 16:06:10] INFO     Milvus vector store initialized milvus_store.py:65
+                             successfully                                      
+                    INFO     LangChain vector store            rag_engine.py:81
+                             initialized                                       
+                    INFO     Document parser initialized       rag_engine.py:85
+                    INFO     Query processor initialized       rag_engine.py:89
+                    INFO     Document indexer initialized with rag_engine.py:95
+                             frontmatter enhancement                           
+                    INFO     Incremental indexer initialized  rag_engine.py:100
+                             with change detection                             
+                    INFO     Monitoring coordinator           rag_engine.py:104
+                             initialized with incremental                      
+                             updates                                           
+                    INFO     RAG engine initialization        rag_engine.py:107
+                             complete                                          
+2026-05-23T16:06:10 engine.initialize success
+2026-05-23T16:06:10 RAGEngine initialization success
+2026-05-23T16:06:10 capture end: warmup
+2026-05-23T16:06:10 warmup success
+2026-05-23T16:13:54 warmup start
+2026-05-23T16:13:54 capture start: warmup
+2026-05-23T16:13:54 _get_engine enter
+2026-05-23T16:13:54 _get_engine create lock
+2026-05-23T16:13:54 _get_engine before lock
+2026-05-23T16:13:54 _get_engine after lock
+2026-05-23T16:13:54 _get_engine validate backend paths start
+2026-05-23T16:13:54 _get_engine validate backend paths success
+2026-05-23T16:13:54 _get_engine ensure backend import path start
+2026-05-23T16:13:54 _get_engine ensure backend import path success
+2026-05-23T16:13:54 _get_engine import markdown_rag_mcp.config start
+2026-05-23T16:15:36 _get_engine import markdown_rag_mcp.config success
+2026-05-23T16:15:36 _get_engine import markdown_rag_mcp.core start
+2026-05-23T16:15:36 _get_engine import markdown_rag_mcp.core success
+2026-05-23T16:15:36 RAGEngine initialization start
+2026-05-23T16:15:36 get_config start
+2026-05-23T16:15:36 get_config success
+2026-05-23T16:15:36 RAGEngine constructor start
+[05/23/26 16:15:36] INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-05-23T16:15:36 RAGEngine constructor success
+2026-05-23T16:15:36 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+[05/23/26 16:15:42] INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+[05/23/26 16:15:45] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+                    INFO     Database 'markdown_rag' already milvus_store.py:88
+                             exists                                            
+[05/23/26 16:15:46] INFO     Milvus vector store initialized milvus_store.py:65
+                             successfully                                      
+                    INFO     LangChain vector store            rag_engine.py:81
+                             initialized                                       
+                    INFO     Document parser initialized       rag_engine.py:85
+                    INFO     Query processor initialized       rag_engine.py:89
+                    INFO     Document indexer initialized with rag_engine.py:95
+                             frontmatter enhancement                           
+                    INFO     Incremental indexer initialized  rag_engine.py:100
+                             with change detection                             
+                    INFO     Monitoring coordinator           rag_engine.py:104
+                             initialized with incremental                      
+                             updates                                           
+                    INFO     RAG engine initialization        rag_engine.py:107
+                             complete                                          
+2026-05-23T16:15:46 engine.initialize success
+2026-05-23T16:15:46 RAGEngine initialization success
+2026-05-23T16:15:46 capture end: warmup
+2026-05-23T16:15:46 warmup success
+2026-05-23T16:16:03 warmup start
+2026-05-23T16:16:03 capture start: warmup
+2026-05-23T16:16:03 _get_engine enter
+2026-05-23T16:16:03 _get_engine before lock
+2026-05-23T16:16:03 _get_engine after lock
+2026-05-23T16:16:03 _get_engine cached engine hit
+2026-05-23T16:16:03 capture end: warmup
+2026-05-23T16:16:03 warmup success
+2026-05-23T16:16:05 ping
+2026-05-23T16:17:02 search start query='TGpStringHash' limit=5 threshold=0.1
+2026-05-23T16:17:02 capture start: search
+2026-05-23T16:17:02 search before _get_engine
+2026-05-23T16:17:02 _get_engine enter
+2026-05-23T16:17:02 _get_engine before lock
+2026-05-23T16:17:02 _get_engine after lock
+2026-05-23T16:17:02 _get_engine cached engine hit
+2026-05-23T16:17:02 search after _get_engine
+2026-05-23T16:17:02 search before engine.search
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.80it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.80it/s]2026-05-23T16:17:03 search after engine.search
+
+2026-05-23T16:17:03 capture end: search
+2026-05-23T16:17:03 search success query='TGpStringHash' result_count=5
+2026-05-23T16:47:19 warmup start
+2026-05-23T16:47:19 capture start: warmup
+2026-05-23T16:47:19 _get_engine enter
+2026-05-23T16:47:19 _get_engine create lock
+2026-05-23T16:47:19 _get_engine before lock
+2026-05-23T16:47:19 _get_engine after lock
+2026-05-23T16:47:19 _get_engine validate backend paths start
+2026-05-23T16:47:19 _get_engine validate backend paths success
+2026-05-23T16:47:19 _get_engine ensure backend import path start
+2026-05-23T16:47:19 _get_engine ensure backend import path success
+2026-05-23T16:47:19 _get_engine import markdown_rag_mcp.config start
+2026-05-23T16:49:02 _get_engine import markdown_rag_mcp.config success
+2026-05-23T16:49:02 _get_engine import markdown_rag_mcp.core start
+2026-05-23T16:49:02 _get_engine import markdown_rag_mcp.core success
+2026-05-23T16:49:02 RAGEngine initialization start
+2026-05-23T16:49:02 get_config start
+2026-05-23T16:49:02 get_config success
+2026-05-23T16:49:02 RAGEngine constructor start
+[05/23/26 16:49:02] INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-05-23T16:49:02 RAGEngine constructor success
+2026-05-23T16:49:02 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+[05/23/26 16:49:08] INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+[05/23/26 16:49:11] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+                    INFO     Database 'markdown_rag' already milvus_store.py:88
+                             exists                                            
+                    INFO     Milvus vector store initialized milvus_store.py:65
+                             successfully                                      
+                    INFO     LangChain vector store            rag_engine.py:81
+                             initialized                                       
+                    INFO     Document parser initialized       rag_engine.py:85
+                    INFO     Query processor initialized       rag_engine.py:89
+                    INFO     Document indexer initialized with rag_engine.py:95
+                             frontmatter enhancement                           
+                    INFO     Incremental indexer initialized  rag_engine.py:100
+                             with change detection                             
+                    INFO     Monitoring coordinator           rag_engine.py:104
+                             initialized with incremental                      
+                             updates                                           
+                    INFO     RAG engine initialization        rag_engine.py:107
+                             complete                                          
+2026-05-23T16:49:11 engine.initialize success
+2026-05-23T16:49:11 RAGEngine initialization success
+2026-05-23T16:49:11 capture end: warmup
+2026-05-23T16:49:11 warmup success
+2026-05-23T16:50:01 search start query='строковый ключ' limit=5 threshold=0.1
+2026-05-23T16:50:01 capture start: search
+2026-05-23T16:50:01 search before _get_engine
+2026-05-23T16:50:01 _get_engine enter
+2026-05-23T16:50:01 _get_engine before lock
+2026-05-23T16:50:01 _get_engine after lock
+2026-05-23T16:50:01 _get_engine cached engine hit
+2026-05-23T16:50:01 search after _get_engine
+2026-05-23T16:50:01 search before engine.search
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.77it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.76it/s]2026-05-23T16:50:01 search after engine.search
+
+2026-05-23T16:50:01 capture end: search
+2026-05-23T16:50:01 search success query='строковый ключ' result_count=5
+2026-05-23T16:50:03 search start query='поиск' limit=5 threshold=0.1
+2026-05-23T16:50:03 capture start: search
+2026-05-23T16:50:03 search before _get_engine
+2026-05-23T16:50:03 _get_engine enter
+2026-05-23T16:50:03 _get_engine before lock
+2026-05-23T16:50:03 _get_engine after lock
+2026-05-23T16:50:03 _get_engine cached engine hit
+2026-05-23T16:50:03 search after _get_engine
+2026-05-23T16:50:03 search before engine.search
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 111.22it/s]2026-05-23T16:50:04 search after engine.search
+
+2026-05-23T16:50:04 capture end: search
+2026-05-23T16:50:04 search success query='поиск' result_count=5
+2026-05-23T16:50:06 search start query='GpStringHash' limit=5 threshold=0.1
+2026-05-23T16:50:06 capture start: search
+2026-05-23T16:50:06 search before _get_engine
+2026-05-23T16:50:06 _get_engine enter
+2026-05-23T16:50:06 _get_engine before lock
+2026-05-23T16:50:06 _get_engine after lock
+2026-05-23T16:50:06 _get_engine cached engine hit
+2026-05-23T16:50:06 search after _get_engine
+2026-05-23T16:50:06 search before engine.search
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 111.11it/s]2026-05-23T16:50:07 search after engine.search
+
+2026-05-23T16:50:07 capture end: search
+2026-05-23T16:50:07 search success query='GpStringHash' result_count=5
+2026-06-22T13:23:40 warmup start
+2026-06-22T13:23:40 capture start: warmup
+2026-06-22T13:23:40 _get_engine enter
+2026-06-22T13:23:40 _get_engine create lock
+2026-06-22T13:23:40 _get_engine before lock
+2026-06-22T13:23:40 _get_engine after lock
+2026-06-22T13:23:40 _get_engine validate backend paths start
+2026-06-22T13:23:40 _get_engine validate backend paths success
+2026-06-22T13:23:40 _get_engine ensure backend import path start
+2026-06-22T13:23:40 _get_engine ensure backend import path success
+2026-06-22T13:23:40 _get_engine import markdown_rag_mcp.config start
+2026-06-22T13:25:25 _get_engine import markdown_rag_mcp.config success
+2026-06-22T13:25:25 _get_engine import markdown_rag_mcp.core start
+2026-06-22T13:25:25 _get_engine import markdown_rag_mcp.core success
+2026-06-22T13:25:25 RAGEngine initialization start
+2026-06-22T13:25:25 get_config start
+2026-06-22T13:25:25 get_config success
+2026-06-22T13:25:25 RAGEngine constructor start
+[06/22/26 13:25:25] INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-06-22T13:25:25 RAGEngine constructor success
+2026-06-22T13:25:25 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+[06/22/26 13:25:46] INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[06/22/26 13:25:49] WARNING  Xet Storage is enabled for   file_download.py:1732
+                             this repo, but the 'hf_xet'                       
+                             package is not installed.                         
+                             Falling back to regular HTTP                      
+                             download. For better                              
+                             performance, install the                          
+                             package with: `pip install                        
+                             huggingface_hub[hf_xet]` or                       
+                             `pip install hf_xet`                              
+[06/22/26 13:26:03] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+2026-06-22 13:26:13,507 [ERROR][create_connection]: Failed to create new connection using: http://localhost:19530 (_utils.py:48)
+[06/22/26 13:26:13] ERROR    Failed to ensure database       milvus_store.py:94
+                             exists: <MilvusException:                         
+                             (code=2, message=Fail                             
+                             connecting to server on                           
+                             localhost:19530, illegal                          
+                             connection params or server                       
+                             unavailable)>                                     
+                    ERROR    RAG engine initialization        rag_engine.py:110
+                             failed: [VECTOR_STORE_ERROR]                      
+                             Failed to initialize Milvus                       
+                             vector store:                                     
+                             [VECTOR_STORE_ERROR] Failed to                    
+                             create database:                                  
+                             <MilvusException: (code=2,                        
+                             message=Fail connecting to                        
+                             server on localhost:19530,                        
+                             illegal connection params or                      
+                             server unavailable)>                              
+2026-06-22T13:26:13 RAGEngine initialization failed InitializationError: [INITIALIZATION_ERROR] Failed to initialize RAG engine: [VECTOR_STORE_ERROR] Failed to initialize Milvus vector store: [VECTOR_STORE_ERROR] Failed to create database: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-06-22T13:26:13 capture end: warmup
+2026-06-22T13:26:13 warmup error WrapperError: Failed to initialize RAGEngine: InitializationError: [INITIALIZATION_ERROR] Failed to initialize RAG engine: [VECTOR_STORE_ERROR] Failed to initialize Milvus vector store: [VECTOR_STORE_ERROR] Failed to create database: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-06-22T13:26:13 search start query='проект' limit=5 threshold=0.1
+2026-06-22T13:26:13 capture start: search
+2026-06-22T13:26:13 search before _get_engine
+2026-06-22T13:26:13 _get_engine enter
+2026-06-22T13:26:13 _get_engine before lock
+2026-06-22T13:26:13 _get_engine after lock
+2026-06-22T13:26:13 _get_engine validate backend paths start
+2026-06-22T13:26:13 _get_engine validate backend paths success
+2026-06-22T13:26:13 _get_engine ensure backend import path start
+2026-06-22T13:26:13 _get_engine ensure backend import path success
+2026-06-22T13:26:13 _get_engine import markdown_rag_mcp.config start
+2026-06-22T13:26:13 _get_engine import markdown_rag_mcp.config success
+2026-06-22T13:26:13 _get_engine import markdown_rag_mcp.core start
+2026-06-22T13:26:13 _get_engine import markdown_rag_mcp.core success
+2026-06-22T13:26:13 RAGEngine initialization start
+2026-06-22T13:26:13 get_config start
+2026-06-22T13:26:13 get_config success
+2026-06-22T13:26:13 RAGEngine constructor start
+                    INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-06-22T13:26:13 RAGEngine constructor success
+2026-06-22T13:26:13 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+                    INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+[06/22/26 13:26:16] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+--- Logging error ---
+Traceback (most recent call last):
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\milvus_client\_utils.py", line 44, in create_connection
+    connections.connect(
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\orm\connections.py", line 472, in connect
+    connect_milvus(**kwargs, user=user, password=password, token=token, db_name=db_name)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\orm\connections.py", line 426, in connect_milvus
+    raise e from e
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\orm\connections.py", line 418, in connect_milvus
+    gh._wait_for_channel_ready(timeout=timeout)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\client\grpc_handler.py", line 162, in _wait_for_channel_ready
+    raise MilvusException(
+pymilvus.exceptions.MilvusException: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "D:\Works\учёба\вкр\finalversion\code\mcp\markdown-rag-mcp-wrapper\server.py", line 398, in <module>
+    mcp.run()
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\fastmcp\server.py", line 296, in run
+    anyio.run(self.run_stdio_async)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\anyio\_core\_eventloop.py", line 74, in run
+    return async_backend.run(func, args, {}, backend_options)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2325, in run
+    return runner.run(wrapper())
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+  File "C:\Users\Danii\AppData\Roaming\uv\python\cpython-3.12.0-windows-x86_64-none\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\lowlevel\server.py", line 703, in _handle_message
+    await self._handle_request(message, req, session, lifespan_context, raise_exceptions)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\lowlevel\server.py", line 770, in _handle_request
+    response = await handler(req)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\lowlevel\server.py", line 535, in handler
+    results = await func(tool_name, arguments)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\fastmcp\server.py", line 346, in call_tool
+    return await self._tool_manager.call_tool(name, arguments, context=context, convert_result=True)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\fastmcp\tools\tool_manager.py", line 93, in call_tool
+    return await tool.run(arguments, context=context, convert_result=convert_result)
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\fastmcp\tools\base.py", line 101, in run
+    result = await self.fn_metadata.call_fn_with_arg_validation(
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\mcp\server\fastmcp\utilities\func_metadata.py", line 94, in call_fn_with_arg_validation
+    return await fn(**arguments_parsed_dict)
+  File "D:\Works\учёба\вкр\finalversion\code\mcp\markdown-rag-mcp-wrapper\server.py", line 324, in markdown_rag_search
+    engine = await _get_engine()
+  File "D:\Works\учёба\вкр\finalversion\code\mcp\markdown-rag-mcp-wrapper\server.py", line 223, in _get_engine
+    await engine.initialize()
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\src\markdown_rag_mcp\core\rag_engine.py", line 80, in initialize
+    await self._vector_store.initialize_collections()
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\src\markdown_rag_mcp\storage\milvus_store.py", line 46, in initialize_collections
+    await self._ensure_database_exists()
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\src\markdown_rag_mcp\storage\milvus_store.py", line 78, in _ensure_database_exists
+    client = MilvusClient(uri=f"http://{self.config.milvus_host}:{self.config.milvus_port}")
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\milvus_client\milvus_client.py", line 65, in __init__
+    self._using = create_connection(
+  File "D:\Works\учёба\вкр\finalversion\tools\markdown-rag-mcp\.venv\Lib\site-packages\pymilvus\milvus_client\_utils.py", line 48, in create_connection
+    logger.error("Failed to create new connection using: %s", using)
+Message: 'Failed to create new connection using: %s'
+Arguments: ('http://localhost:19530',)
+[06/22/26 13:26:26] ERROR    Failed to ensure database       milvus_store.py:94
+                             exists: <MilvusException:                         
+                             (code=2, message=Fail                             
+                             connecting to server on                           
+                             localhost:19530, illegal                          
+                             connection params or server                       
+                             unavailable)>                                     
+                    ERROR    RAG engine initialization        rag_engine.py:110
+                             failed: [VECTOR_STORE_ERROR]                      
+                             Failed to initialize Milvus                       
+                             vector store:                                     
+                             [VECTOR_STORE_ERROR] Failed to                    
+                             create database:                                  
+                             <MilvusException: (code=2,                        
+                             message=Fail connecting to                        
+                             server on localhost:19530,                        
+                             illegal connection params or                      
+                             server unavailable)>                              
+2026-06-22T13:26:26 RAGEngine initialization failed InitializationError: [INITIALIZATION_ERROR] Failed to initialize RAG engine: [VECTOR_STORE_ERROR] Failed to initialize Milvus vector store: [VECTOR_STORE_ERROR] Failed to create database: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-06-22T13:26:26 capture end: search
+2026-06-22T13:26:26 search error WrapperError: Failed to initialize RAGEngine: InitializationError: [INITIALIZATION_ERROR] Failed to initialize RAG engine: [VECTOR_STORE_ERROR] Failed to initialize Milvus vector store: [VECTOR_STORE_ERROR] Failed to create database: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-06-22T13:44:43 warmup start
+2026-06-22T13:44:43 capture start: warmup
+2026-06-22T13:44:43 _get_engine enter
+2026-06-22T13:44:43 _get_engine create lock
+2026-06-22T13:44:43 _get_engine before lock
+2026-06-22T13:44:43 _get_engine after lock
+2026-06-22T13:44:43 _get_engine validate backend paths start
+2026-06-22T13:44:43 _get_engine validate backend paths success
+2026-06-22T13:44:43 _get_engine ensure backend import path start
+2026-06-22T13:44:43 _get_engine ensure backend import path success
+2026-06-22T13:44:43 _get_engine import markdown_rag_mcp.config start
+2026-06-22T13:46:25 _get_engine import markdown_rag_mcp.config success
+2026-06-22T13:46:25 _get_engine import markdown_rag_mcp.core start
+2026-06-22T13:46:25 _get_engine import markdown_rag_mcp.core success
+2026-06-22T13:46:25 RAGEngine initialization start
+2026-06-22T13:46:25 get_config start
+2026-06-22T13:46:25 get_config success
+2026-06-22T13:46:25 RAGEngine constructor start
+[06/22/26 13:46:25] INFO     RAG engine created with           rag_engine.py:62
+                             configuration                                     
+2026-06-22T13:46:25 RAGEngine constructor success
+2026-06-22T13:46:25 engine.initialize start
+                    INFO     Initializing RAG engine           rag_engine.py:71
+                             components...                                     
+                    INFO     Initializing HuggingFace embedder:  embedder.py:30
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2 on cpu                                        
+[06/22/26 13:46:28] INFO     Loading embedding model:            embedder.py:44
+                             sentence-transformers/all-MiniLM-L6               
+                             -v2                                               
+                    INFO     Load pretrained         SentenceTransformer.py:227
+                             SentenceTransformer:                              
+                             sentence-transformers/a                           
+                             ll-MiniLM-L6-v2                                   
+[06/22/26 13:46:31] INFO     Model loaded successfully on        embedder.py:51
+                             device: cpu                                       
+                    INFO     LangChain embedding adapter       rag_engine.py:76
+                             initialized                                       
+2026-06-22 13:46:42,156 [ERROR][create_connection]: Failed to create new connection using: http://localhost:19530 (_utils.py:48)
+[06/22/26 13:46:42] ERROR    Failed to ensure database       milvus_store.py:94
+                             exists: <MilvusException:                         
+                             (code=2, message=Fail                             
+                             connecting to server on                           
+                             localhost:19530, illegal                          
+                             connection params or server                       
+                             unavailable)>                                     
+                    ERROR    RAG engine initialization        rag_engine.py:110
+                             failed: [VECTOR_STORE_ERROR]                      
+                             Failed to initialize Milvus                       
+                             vector store:                                     
+                             [VECTOR_STORE_ERROR] Failed to                    
+                             create database:                                  
+                             <MilvusException: (code=2,                        
+                             message=Fail connecting to                        
+                             server on localhost:19530,                        
+                             illegal connection params or                      
+                             server unavailable)>                              
+2026-06-22T13:46:42 RAGEngine initialization failed InitializationError: [INITIALIZATION_ERROR] Failed to initialize RAG engine: [VECTOR_STORE_ERROR] Failed to initialize Milvus vector store: [VECTOR_STORE_ERROR] Failed to create database: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-06-22T13:46:42 capture end: warmup
+2026-06-22T13:46:42 warmup error WrapperError: Failed to initialize RAGEngine: InitializationError: [INITIALIZATION_ERROR] Failed to initialize RAG engine: [VECTOR_STORE_ERROR] Failed to initialize Milvus vector store: [VECTOR_STORE_ERROR] Failed to create database: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>

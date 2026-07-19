@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "pasls": {
+      "command": "C:/Users/Danii/go/bin/mcp-language-server.exe",
+      "args": [
+        "-workspace",
+        "D:/Works/учёба/вкр/GpDelphiUnits_mini/src",
+        "-lsp",
+        "D:/Works/учёба/вкр/code/tools/pasls/pasls.exe"
+      ],
+      "transport": "stdio"
+    }
+  }
+}

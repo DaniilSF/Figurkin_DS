@@ -1,6 +1,6 @@
 # tools
 
-Папка `tools` содержит внешние и вспомогательные инструменты, необходимые clean pipeline.
+Папка `tools` содержит внешние и вспомогательные инструменты.
 
 ## Ожидаемая структура
 
@@ -76,7 +76,3 @@ test -f "$PASLS_EXE" && echo "PASLS ok"
 test -f "$MCP_LANGUAGE_SERVER_EXE" && echo "MCP language server ok"
 test -d "$MARKDOWN_RAG_DIR" && echo "markdown-rag-mcp ok"
 ```
-
-## Примечание
-
-Внешний backend `markdown-rag-mcp` не модифицируется

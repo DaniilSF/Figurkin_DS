@@ -113,7 +113,7 @@ OpenCode запускается из корня проекта `finalversion` и
 
 Используются:
 AGENTS.md
-code/agent/opencode.fragment.json
+code/agent/opencode.fragment_example.json
 code/mcp/markdown-rag-mcp-wrapper/server.py
 
 Runtime-инструменты:
@@ -549,7 +549,7 @@ data/logs/markdown-rag-mcp-wrapper.log
 
 Назначение: конфигурационные фрагменты для OpenCode.
 
-### 10.1. `opencode.fragment.json`
+### 10.1. `opencode.fragment_example.json`
 
 Фрагмент `opencode.json`, который показывает, как подключить MCP-серверы.
 
@@ -717,7 +717,7 @@ AGENTS.md
 code/wiki/ai-descr-ai-v3-config-rag-md-v3.sh
 code/pipeline/*.sh
 code/mcp/markdown-rag-mcp-wrapper/server.py
-code/agent/opencode.fragment.json
+code/agent/opencode.fragment_example.json
 
 ### Внешние инструменты
 
@@ -812,7 +812,7 @@ code/pipeline/check-rag.sh
 code/mcp/markdown-rag-mcp-wrapper/server.py
   отвечает за MCP-инструменты OpenCode для RAG-поиска
 
-code/agent/opencode.fragment.json
+code/agent/opencode.fragment_example.json
   показывает, как подключить MCP-серверы к OpenCode
 
 data/input_project

@@ -16,15 +16,15 @@
 
 В папке `docs/` размещается основной текст курсовой работы:
 
-* `kursovaya_Figurkin_V2.docx` — редактируемая версия курсовой работы;
-* `kursovaya_Figurkin_V2.pdf` — PDF-версия курсовой работы.
+* `course-work_Figurkin.docx` — редактируемая версия курсовой работы;
+* `course-work_Figurkin.pdf` — PDF-версия курсовой работы.
 
 ## Презентация
 
 В папке `presentation/` размещаются материалы для выступления:
 
-* `курсовая ФигуркинV2.pptx` — презентация;
-* `курсовая ФигуркинV2.pdf` — PDF-версия презентации;
+* `course-work-presentation_Figurkin.pptx` — презентация;
+* `course-work-presentation_Figurkin.pdf` — PDF-версия презентации;
 
 ## Программная часть
 

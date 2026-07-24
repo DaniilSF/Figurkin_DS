@@ -27,6 +27,7 @@ sh code/pipeline/build-wiki-rag.sh
 - `markdown_rag_search` — поиск по Markdown RAG-индексу;
 - `markdown_rag_reload_engine` — сброс кэшированного `RAGEngine`, чтобы следующий поиск переинициализировал backend;
 - `markdown_rag_ping` — быстрая проверка, что MCP-server доступен из OpenCode.
+- `markdown_rag_warmup` — для предварительной инициализации и кэширования `RAGEngine` перед первым поиском.
 
 Индексация намеренно не является MCP-tool. Она относится к build pipeline, а не к runtime-диалогу агента.
 

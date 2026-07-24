@@ -123,13 +123,7 @@ sh "code/pipeline/check-rag.sh" "lock free queue"
 Смотреть:
 
 ```text
-finalversion/code/agent/opencode.fragment.json
-```
-
-Wrapper должен запускаться через backend окружение:
-
-```text
-uv --directory finalversion/tools/markdown-rag-mcp run python finalversion/code/mcp/markdown-rag-mcp-wrapper/server.py
+finalversion/code/agent/opencode.fragment_example.json
 ```
 
 ## Runtime MCP tools

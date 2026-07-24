@@ -133,6 +133,7 @@ finalversion/code/agent/opencode.fragment_example.json
 - `markdown_rag_search` — поиск по RAG;
 - `markdown_rag_reload_engine` — сброс кэша `RAGEngine`;
 - `markdown_rag_ping` — быстрая проверка MCP.
+- `markdown_rag_warmup` — для предварительной инициализации и кэширования `RAGEngine` перед первым поиском.
 
 Индексация не является MCP-tool: она выполняется оркестратором после генерации wiki.
 

@@ -123,7 +123,7 @@ uv run python "D:/Works/учёба/вкр/finalversion/code/mcp/markdown-rag-mcp
 Актуальный фрагмент конфигурации должен лежать в:
 
 ```text
-finalversion/code/agent/opencode.fragment.json
+finalversion/code/agent/opencode.fragment_example.json
 ```
 
 Рекомендуемый блок:

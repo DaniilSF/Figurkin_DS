@@ -38,8 +38,6 @@
 |cargo_types  |`id` PK                                            | `name` varchar 100 NOT NULL, `code` varchar 20, `density_kg_m3` numeric 10,2 |
 |shipments    | `id` PK                                           | `equipment_id` FK → equipment.id, `cargo_type_id` FK → cargo\_types.id, `load_location_id` FK → locations.id, `unload_location_id` FK → locations.id, `planned_datetime` timestamp, `actual_datetime` timestamp, `weight_kg` int, `status` varchar 20 |
 
-*Все внешние ключи настроены на `ON DELETE SET NULL`, поэтому сначала можно удалять связанные записи без нарушения целостности.*
-
 ---
 
 3. Основные функции веб-интерфейса

@@ -573,7 +573,7 @@ uv --directory finalversion/tools/markdown-rag-mcp run python finalversion/code/
 Папка для исходного Pascal/Delphi-проекта.
 
 В архиве есть пример:
-data/input_project/GpDelphiUnits_very_mini
+data/input_project/scr/
 
 Именно исходники из `PROJECT_ROOT` обрабатываются wiki-generator-ом и используются `pasls`.
 

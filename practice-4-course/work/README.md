@@ -1,5 +1,5 @@
 ## Работа с проектом
-1) Из корня репозитория выполнить: docker-compose up --build
+1) Выполнить docker-compose up --build
 2) Открыть в браузере: http://localhost:8080 или Swagger: http://localhost:8000/docs
 3) Остановка проекта: docker-compose down
 

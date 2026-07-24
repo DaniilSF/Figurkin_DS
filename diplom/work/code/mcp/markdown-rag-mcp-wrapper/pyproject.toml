@@ -12,4 +12,4 @@ dependencies = [
 package = false
 
 [tool.uv.sources]
-markdown-rag-mcp = { path = "../markdown-rag-mcp", editable = true }
+markdown-rag-mcp = { path = "../../../tools/markdown-rag-mcp", editable = true }
